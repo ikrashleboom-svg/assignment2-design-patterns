@@ -1,7 +1,20 @@
 # Assignment 2 — Factory Method & Abstract Factory
 
-Theme: smart greenhouse 
+Theme: smart greenhouse
 
+## Project structure
+
+Followed the layout suggested in the assignment:
+
+```
+assignment2-design-patterns/
+  ├── src/main/java/
+  │    ├── Main.java
+  │    ├── factorymethod/     (Part A)
+  │    └── abstractfactory/   (Part B)
+  ├── README.md
+  └── pom.xml
+```
 ## What I did
 
 Split it into Part A (Factory Method) and Part B (Abstract Factory) like the assignment asked. Went with a greenhouse because it makes the difference between the two patterns pretty obvious — Part A just builds one device, Part B builds a whole set of devices that have to match each other.
